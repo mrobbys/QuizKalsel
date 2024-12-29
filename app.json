@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "quizKalsel",
+    "name": "Quiz Kalsel",
     "slug": "quizKalsel",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon_quiz.png",
+    "icon": "./assets/icon_canva.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/icon_quiz.png",
+      "image": "./assets/icon_canva.png",
       "resizeMode": "contain",
       "backgroundColor": "#AD652B"
     },
@@ -17,12 +17,24 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icon_quiz.png",
+        "foregroundImage": "./assets/icon_canva.png",
         "backgroundColor": "#AD652B"
-      }
+      },
+      "package": "com.mrobbys.quizKalsel"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "476f506c-cc3d-404a-90c6-7eedc73258b1"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/476f506c-cc3d-404a-90c6-7eedc73258b1"
     }
   }
 }
